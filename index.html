@@ -1,0 +1,33 @@
+---
+---
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ali's Bakes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <h1>Ali's Bakes</h1>
+    </header>
+    <ul class="bakes">
+        {% for bake in site.data.bakes %}
+        <li>
+            <h2>{{ bake.name }}</h2>
+            <p class="date-wrapper"><time datetime="{{ bake.date }}">{{ bake.date | date_to_string }}</time></p>
+            {% if bake.instagramUrl %}<a class="photo" href="{{ bake.instagramUrl }}/media/?size=l">{% endif %}
+                <img src="{% if bake.instagramUrl %}{{ bake.instagramUrl }}/media/?size=t{% else %}img/cake.png{% endif %}" />
+            {% if bake.instagramUrl %}</a>{% endif %}
+            <p class="rating">{{ bake.rating }}</p>
+            <p class="description">{{ bake.description }}</p>
+        </li>
+        {% endfor %}
+    </ul>
+    <footer>
+        <p>Blah</p>
+    </footer>
+
+    </body>
+</html>
