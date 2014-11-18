@@ -21,7 +21,7 @@ html {
 .l-content {
   .l-region__inner {
     max-width: $max-container-width;
-    padding: 0 $spacing-unit-horizontal;
+    padding: 0 $spacing-unit-horizontal $spacing-unit-vertical;
   }
 }
 

@@ -270,7 +270,7 @@ html {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ali\/dev\/github\/bakes\/sass\/layouts\/_default\.scss}line{font-family:\000031}}
 html {
-  background: white url('../images/swirl_pattern.png?1416341531') 0 0 repeat; }
+  background: white url('../images/swirl_pattern.png?1416352361') 0 0 repeat; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ali\/dev\/github\/bakes\/sass\/layouts\/_default\.scss}line{font-family:\000037}}
 .l-site-header .l-region__inner,
@@ -287,7 +287,7 @@ html {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ali\/dev\/github\/bakes\/sass\/layouts\/_default\.scss}line{font-family:\0000322}}
 .l-content .l-region__inner {
   max-width: 60em;
-  padding: 0 1.5em; }
+  padding: 0 1.5em 20px; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ali\/dev\/github\/bakes\/sass\/layouts\/_default\.scss}line{font-family:\0000328}}
 .l-site-footer {
@@ -341,15 +341,15 @@ html {
   .bake .date {
     padding-left: 25px;
     line-height: 20px;
-    background: transparent url('../images/cal.svg?1416315248') 0 0 no-repeat;
+    background: transparent url('../images/cal.svg?1416352361') 0 0 no-repeat;
     background-size: 20px 20px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ali\/dev\/github\/bakes\/sass\/components\/_bakes\.scss}line{font-family:\0000356}}
   .bake .rating {
     width: 100px;
-    background-image: url('../images/rating_empty.svg?1416344210'); }
+    background-image: url('../images/rating_empty.svg?1416352361'); }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ali\/dev\/github\/bakes\/sass\/components\/_bakes\.scss}line{font-family:\0000360}}
     .bake .rating .stars {
-      background-image: url('../images/rating_full.svg?1416344233'); }
+      background-image: url('../images/rating_full.svg?1416352361'); }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ali\/dev\/github\/bakes\/sass\/components\/_bakes\.scss}line{font-family:\0000364}}
     .bake .rating,
     .bake .rating .stars {
@@ -362,7 +362,7 @@ html {
   .bake .original-recipe a {
     padding-left: 25px;
     line-height: 20px;
-    background: transparent url('../images/recipe.svg?1416344563') 0 0 no-repeat;
+    background: transparent url('../images/recipe.svg?1416352361') 0 0 no-repeat;
     background-size: 20px 20px;
     text-decoration: none; }
 
