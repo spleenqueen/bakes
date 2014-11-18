@@ -286,8 +286,7 @@ html {
 
 .l-content .l-region__inner {
   max-width: 60em;
-  padding: 0 1.5em;
-}
+  padding: 0 1.5em 20px; }
 
 .l-site-footer {
   background-color: #4c7c9d;
@@ -326,7 +325,6 @@ html {
   margin-bottom: 20px;
 }
 .bake .bake__detail {
-  overflow: hidden;
   overflow: hidden;
   *zoom: 1;
 }
