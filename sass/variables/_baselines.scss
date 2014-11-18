@@ -1,0 +1,19 @@
+// Set consistent vertical and horizontal spacing units.
+$spacing-unit-vertical    : 20px;
+$spacing-unit-horizontal  : 1.5em;
+
+// Max container width
+$max-container-width: 60em;
+
+// Define base font size and line height.
+$base-font-size:    16px;
+$base-line-height:  1.4em;
+
+// Define the font families used throught the theme.
+@import url(http://fonts.googleapis.com/css?family=Amatic+SC:400,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+$base-font-family:  'Open Sans', sans-serif;
+
+// Define the base font color, to be used as the default throughout the site.
+$base-font-color: white;

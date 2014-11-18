@@ -1,33 +1,28 @@
 ---
+layout: default
 ---
 
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Ali's Bakes</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-    <header>
-        <h1>Ali's Bakes</h1>
-    </header>
-    <ul class="bakes">
-        {% for bake in site.data.bakes %}
-        <li>
-            <h2>{{ bake.name }}</h2>
-            <p class="date-wrapper"><time datetime="{{ bake.date }}">{{ bake.date | date_to_string }}</time></p>
-            {% if bake.instagramUrl %}<a class="photo" href="{{ bake.instagramUrl }}/media/?size=l">{% endif %}
-                <img src="{% if bake.instagramUrl %}{{ bake.instagramUrl }}/media/?size=t{% else %}img/cake.png{% endif %}" />
-            {% if bake.instagramUrl %}</a>{% endif %}
-            <p class="rating">{{ bake.rating }}</p>
-            <p class="description">{{ bake.description }}</p>
-        </li>
-        {% endfor %}
-    </ul>
-    <footer>
-        <p>Blah</p>
-    </footer>
-
-    </body>
-</html>
+<ul class="bakes">
+    {% for bake in site.data.bakes %}
+    <li>
+        <article class="bake">
+            <aside class="bake__meta-info">
+                <div class="date-wrapper"><time datetime="{{ bake.date }}">{{ bake.date | date_to_string }}</time></div>
+                <div class="rating rating--{{ bake.rating }}"><span>Rating: </span>{{ bake.rating }}</div>
+                {% if bake.recipeUrl %}
+                <div class="original-recipe"><a href="{{ bake.recipeUrl }}" target="_blank">Original recipe</a></div>
+                {% endif %}
+            </aside>
+            <div class="bake__detail">
+                <h2>{{ bake.name }}</h2>
+                {% if bake.instagramUrl %}
+                    <a class="photo" href="{{ bake.instagramUrl }}/media/?size=l">
+                        <img src="{{ bake.instagramUrl }}/media/?size=t" />
+                    </a>
+                {% endif %}
+                <div class="description">{{ bake.description }}</div>
+            </div>
+        </article>
+    </li>
+    {% endfor %}
+</ul>

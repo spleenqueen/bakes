@@ -1,0 +1,18 @@
+html {
+  background-color: $teal;
+}
+
+.l-site-header,
+.l-site-footer,
+.l-content {
+  .l-region__inner {
+    max-width: $max-container-width;
+    margin: 0 auto;
+    padding: $spacing-unit-vertical $spacing-unit-horizontal;
+  }
+}
+
+.l-site-header,
+.l-site-footer {
+  background-color: darken($teal, 5%);
+}

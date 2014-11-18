@@ -1,0 +1,37 @@
+.bakes {
+  &,
+  li {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+  }
+}
+
+.bake {
+  @include clearfix;
+  margin: $spacing-unit-vertical 0;
+  padding-bottom: $spacing-unit-vertical;
+  border-bottom: mix($teal, $white) 1px dashed;
+
+  h2 {
+    margin-top: 0;
+  }
+
+  .bake__meta-info {
+    width: 20%;
+    float: left;
+    margin-right: $spacing-unit-horizontal;
+    @include font-size(12px);
+    text-transform: uppercase;
+  }
+
+  .bake__detail {
+    overflow: hidden;
+    @include clearfix;
+  }
+
+  .photo {
+    float: left;
+    margin: 0 1em 1em 0;
+  }
+}

@@ -1,0 +1,10 @@
+h1 {
+
+}
+
+h2 {
+  font-family: 'Amatic', serif;
+  font-weight: 700;
+  @include font-size(32px);
+  letter-spacing: 1px;
+}
