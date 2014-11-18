@@ -1,0 +1,17 @@
+.l-site-footer {
+  color: $white;
+
+  .disclaimers {
+    @include font-size(12px);
+  }
+
+  a {
+    color: mix($white, $accent, 75%);
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+      color: mix($white, $accent, 85%);
+    }
+  }
+}

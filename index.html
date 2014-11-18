@@ -7,8 +7,8 @@ layout: default
     <li>
         <article class="bake">
             <aside class="bake__meta-info">
-                <div class="date-wrapper"><time datetime="{{ bake.date }}">{{ bake.date | date_to_string }}</time></div>
-                <div class="rating rating--{{ bake.rating }}"><span>Rating: </span>{{ bake.rating }}</div>
+                <div class="date"><time datetime="{{ bake.date }}">{{ bake.date | date_to_string }}</time></div>
+                <div class="rating" data-rating="{{ bake.rating }}">Rating: {{ bake.rating }} / 5</div>
                 {% if bake.recipeUrl %}
                 <div class="original-recipe"><a href="{{ bake.recipeUrl }}" target="_blank">Original recipe</a></div>
                 {% endif %}

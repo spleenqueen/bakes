@@ -1,8 +1,8 @@
 a {
-  color: lighten(mix($teal, $white), 10%);
+  color: lighten($accent, 5%);
 
   &:hover,
   &:focus {
-    color: lighten(mix($teal, $white), 5%);
+    color: lighten($accent, 10%);
   }
 }

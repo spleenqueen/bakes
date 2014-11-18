@@ -9,9 +9,11 @@
 
 .bake {
   @include clearfix;
-  margin: $spacing-unit-vertical 0;
-  padding-bottom: $spacing-unit-vertical;
-  border-bottom: mix($teal, $white) 1px dashed;
+  position: relative;
+  margin-bottom: $spacing-unit-vertical;
+  background-color: $white;
+  @include box-shadow(0 0 15px 0 rgba(darken($accent, 15%), 0.25));
+  padding: 2em;
 
   h2 {
     margin-top: 0;
@@ -23,6 +25,10 @@
     margin-right: $spacing-unit-horizontal;
     @include font-size(12px);
     text-transform: uppercase;
+
+    > div {
+      margin-bottom: $spacing-unit-vertical;
+    }
   }
 
   .bake__detail {
@@ -33,5 +39,45 @@
   .photo {
     float: left;
     margin: 0 1em 1em 0;
+
+
+    img {
+      display: block;
+    }
+  }
+
+  .date {
+    padding-left: 25px;
+    line-height: 20px;
+    background: transparent image-url('cal.svg') 0 0 no-repeat;
+    background-size: 20px 20px;
+  }
+
+  .rating {
+    width: 100px;
+    background-image: image-url('rating_empty.svg');
+
+    .stars {
+      background-image: image-url('rating_full.svg');
+    }
+
+    &,
+    .stars {
+      height: 20px;
+      display: block;
+      background-color: transparent;
+      background-position: 0 0;
+      background-repeat: repeat-x;
+    }
+  }
+
+  .original-recipe {
+    a {
+      padding-left: 25px;
+      line-height: 20px;
+      background: transparent image-url('recipe.svg') 0 0 no-repeat;
+      background-size: 20px 20px;
+      text-decoration: none;
+    }
   }
 }

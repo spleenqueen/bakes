@@ -1,6 +1,7 @@
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
 /*! normalize.css v3.0.0 | HTML5 Display Definitions | MIT License | git.io/normalize */
-@import url(http://fonts.googleapis.com/css?family=Amatic+SC:400,700);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:900);
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ali\/\.rvm\/gems\/ruby-1\.9\.3-p484\/gems\/compass-normalize-1\.5\/stylesheets\/normalize\/_html5\.scss}line{font-family:\000039}}
 article,
@@ -228,44 +229,69 @@ td,
 th {
   padding: 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ali\/dev\/github\/bakes\/sass\/base\/_headings\.scss}line{font-family:\000031}}
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.4; }
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ali\/dev\/github\/bakes\/sass\/base\/_headings\.scss}line{font-family:\000035}}
+h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Source Sans Pro', serif;
+  color: #5589ad;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 60px;
+  font-size: 3.75rem;
+  text-shadow: 5px 0 #ccdbe6; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ali\/dev\/github\/bakes\/sass\/base\/_headings\.scss}line{font-family:\0000317}}
 h2 {
-  font-family: 'Amatic', serif;
-  font-weight: 700;
+  font-family: 'Pacifico', serif;
+  font-weight: 400;
   font-size: 32px;
   font-size: 2rem;
   letter-spacing: 1px; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ali\/dev\/github\/bakes\/sass\/base\/_links\.scss}line{font-family:\000031}}
 a {
-  color: #a1d0d0; }
+  color: #6695b5; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ali\/dev\/github\/bakes\/sass\/base\/_links\.scss}line{font-family:\000034}}
   a:hover, a:focus {
-    color: #90c8c8; }
+    color: #77a1be; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ali\/dev\/github\/bakes\/sass\/base\/_typography\.scss}line{font-family:\000031}}
 html {
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
   line-height: 1.4em;
-  color: white; }
+  color: #444; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ali\/dev\/github\/bakes\/sass\/layouts\/_default\.scss}line{font-family:\000031}}
 html {
-  background-color: teal; }
+  background: white url('../images/swirl_pattern.png?1416341531') 0 0 repeat; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ali\/dev\/github\/bakes\/sass\/layouts\/_default\.scss}line{font-family:\000038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ali\/dev\/github\/bakes\/sass\/layouts\/_default\.scss}line{font-family:\000037}}
+.l-site-header .l-region__inner,
+.l-site-footer .l-region__inner {
+  padding: 20px 1.5em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ali\/dev\/github\/bakes\/sass\/layouts\/_default\.scss}line{font-family:\0000315}}
 .l-site-header .l-region__inner,
 .l-site-footer .l-region__inner,
 .l-content .l-region__inner {
   max-width: 60em;
-  margin: 0 auto;
-  padding: 20px 1.5em; }
+  margin: 0 auto; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ali\/dev\/github\/bakes\/sass\/layouts\/_default\.scss}line{font-family:\0000315}}
-.l-site-header,
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ali\/dev\/github\/bakes\/sass\/layouts\/_default\.scss}line{font-family:\0000322}}
+.l-content .l-region__inner {
+  max-width: 60em;
+  padding: 0 1.5em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ali\/dev\/github\/bakes\/sass\/layouts\/_default\.scss}line{font-family:\0000328}}
 .l-site-footer {
-  background-color: #006667; }
+  background-color: #4c7c9d; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ali\/dev\/github\/bakes\/sass\/components\/_bakes\.scss}line{font-family:\000032}}
 .bakes,
@@ -278,13 +304,17 @@ html {
 .bake {
   overflow: hidden;
   *zoom: 1;
-  margin: 20px 0;
-  padding-bottom: 20px;
-  border-bottom: #7fbfbf 1px dashed; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ali\/dev\/github\/bakes\/sass\/components\/_bakes\.scss}line{font-family:\0000316}}
+  position: relative;
+  margin-bottom: 20px;
+  background-color: white;
+  -moz-box-shadow: 0 0 15px 0 rgba(59, 97, 122, 0.25);
+  -webkit-box-shadow: 0 0 15px 0 rgba(59, 97, 122, 0.25);
+  box-shadow: 0 0 15px 0 rgba(59, 97, 122, 0.25);
+  padding: 2em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ali\/dev\/github\/bakes\/sass\/components\/_bakes\.scss}line{font-family:\0000318}}
   .bake h2 {
     margin-top: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ali\/dev\/github\/bakes\/sass\/components\/_bakes\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ali\/dev\/github\/bakes\/sass\/components\/_bakes\.scss}line{font-family:\0000322}}
   .bake .bake__meta-info {
     width: 20%;
     float: left;
@@ -292,12 +322,61 @@ html {
     font-size: 12px;
     font-size: 0.75rem;
     text-transform: uppercase; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ali\/dev\/github\/bakes\/sass\/components\/_bakes\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ali\/dev\/github\/bakes\/sass\/components\/_bakes\.scss}line{font-family:\0000329}}
+    .bake .bake__meta-info > div {
+      margin-bottom: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ali\/dev\/github\/bakes\/sass\/components\/_bakes\.scss}line{font-family:\0000334}}
   .bake .bake__detail {
     overflow: hidden;
     overflow: hidden;
     *zoom: 1; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ali\/dev\/github\/bakes\/sass\/components\/_bakes\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ali\/dev\/github\/bakes\/sass\/components\/_bakes\.scss}line{font-family:\0000339}}
   .bake .photo {
     float: left;
     margin: 0 1em 1em 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ali\/dev\/github\/bakes\/sass\/components\/_bakes\.scss}line{font-family:\0000344}}
+    .bake .photo img {
+      display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ali\/dev\/github\/bakes\/sass\/components\/_bakes\.scss}line{font-family:\0000349}}
+  .bake .date {
+    padding-left: 25px;
+    line-height: 20px;
+    background: transparent url('../images/cal.svg?1416315248') 0 0 no-repeat;
+    background-size: 20px 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ali\/dev\/github\/bakes\/sass\/components\/_bakes\.scss}line{font-family:\0000356}}
+  .bake .rating {
+    width: 100px;
+    background-image: url('../images/rating_empty.svg?1416344210'); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ali\/dev\/github\/bakes\/sass\/components\/_bakes\.scss}line{font-family:\0000360}}
+    .bake .rating .stars {
+      background-image: url('../images/rating_full.svg?1416344233'); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ali\/dev\/github\/bakes\/sass\/components\/_bakes\.scss}line{font-family:\0000364}}
+    .bake .rating,
+    .bake .rating .stars {
+      height: 20px;
+      display: block;
+      background-color: transparent;
+      background-position: 0 0;
+      background-repeat: repeat-x; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ali\/dev\/github\/bakes\/sass\/components\/_bakes\.scss}line{font-family:\0000375}}
+  .bake .original-recipe a {
+    padding-left: 25px;
+    line-height: 20px;
+    background: transparent url('../images/recipe.svg?1416344563') 0 0 no-repeat;
+    background-size: 20px 20px;
+    text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ali\/dev\/github\/bakes\/sass\/components\/_footer\.scss}line{font-family:\000031}}
+.l-site-footer {
+  color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ali\/dev\/github\/bakes\/sass\/components\/_footer\.scss}line{font-family:\000034}}
+  .l-site-footer .disclaimers {
+    font-size: 12px;
+    font-size: 0.75rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ali\/dev\/github\/bakes\/sass\/components\/_footer\.scss}line{font-family:\000038}}
+  .l-site-footer a {
+    color: #d4e1ea;
+    text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ali\/dev\/github\/bakes\/sass\/components\/_footer\.scss}line{font-family:\0000312}}
+    .l-site-footer a:hover, .l-site-footer a:focus {
+      color: #e5edf2; }
