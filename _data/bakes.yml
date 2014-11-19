@@ -6,7 +6,7 @@
 
 - date: 2014-09-26 16:30:00 +0000
   name: "Blueberry and lemon mini muffins"
-  description: "I made these for a co-worker's Birthday. They were a litte dry considering they had yoghurt in them (which usually makes for a moister bake). Next time I'd try them full size."
+  description: "I made these for a co-worker's Birthday. They were a litte dry considering they had yoghurt in them (which usually makes for a moister bake). Next time I'd try them full size as I think them being so small and me cooking them for slightly too long was what let them down."
   rating: 2.5
   recipeUrl: http://www.blessthismessplease.com/2012/04/blueberry-lemon-muffins.html
   instagramUrl: http://instagram.com/p/tZZuBfhFRe
@@ -20,12 +20,29 @@
 
 - date: 2014-09-04 16:30:00 +0000
   name: "Marshmellow cupcakes"
-  description: ""
+  description: "Another batch of these Marshmellow Cupcakes. When making them there's sometimes leftover melted marshmellow left in my makeshift piping bag and I love to pipe it directly in to my mouth! Such a piggy!"
   rating: 4
+  recipeUrl: https://hummingbirdbakery.com/cookbooks/the-hummingbird-bakery-cookbook
   instagramUrl: http://instagram.com/p/sifbYyBFTz
 
 - date: 2014-08-26 16:30:00 +0000
-  name: "Ombre Wedding cake, Take 2"
-  description: ""
+  name: "Ombre Wedding cake, v2.0"
+  description: "My sister is getting married in June 2015 and wanted a 'cutting cake' (she's buying in cupcakes, but wanted something to cut). She doesn't like traditional wedding cakes so I'm making her an ombre vanilla/toffee/chocolate cake with ganache filling white chocolate decorations. This is version 2.0 and it went very well - my sister got to try it and she absolutely loved it, so I was chuffed to bits. Now I just have to keep practising it to get it spot on!"
   rating: 4
   instagramUrl: http://instagram.com/p/sK1FSgBFXQ
+
+- date: 2014-01-14 10:01:00 +0000
+  name: "Drupal cupcakes"
+  description: "I made these to take to the North West Drupal User Group for Drupal's 13th Birthday. These were basic Hummingbird Bakery vanilla cupcakes with blue food-die in a vanilla icing. I then created a custom mold from a sheet of kitchen-grade silicon into which I poured melted chocolate. Once set, I made a stencil for the Drupal logo features and then used edible gold spray to complete the chocolate decoration. They went down really well! The only thing I would have done better is the icing piping - I just used a hole cut in the edge of a sandwich bag."
+  rating: 4
+  recipeUrl: https://hummingbirdbakery.com/cookbooks/the-hummingbird-bakery-cookbook
+  twitterImageUrl: https://pbs.twimg.com/media/Bd-OLrJIIAAcmXE.jpg:thumb
+  twitterTweetUrl: https://twitter.com/spleenqueen/status/423213221450088448
+
+- date: 2013-01-13 20:16:00 +0000
+  name: "Marshmellow cupcakes"
+  description: "A few of my colleagues at work absolutely love these cupcakes. I enjoy eating them, but they are such a faff to make! This batch came out great! The frosting is nice and easy with these cupcakes because you don't need to worry about piping it nicely - just mix it with mini marshmellows and stodge it on top!"
+  rating: 5
+  recipeUrl: https://hummingbirdbakery.com/cookbooks/the-hummingbird-bakery-cookbook
+  twitterImageUrl: https://pbs.twimg.com/media/BEdWJj_CIAIE6q1.jpg:thumb
+  twitterTweetUrl: https://twitter.com/spleenqueen/status/308309821772406784

@@ -22,9 +22,14 @@ layout: default
             <div class="bake__detail">
                 <h2>{{ bake.name }}</h2>
                 {% if bake.instagramUrl %}
-                    <a class="photo" href="{{ bake.instagramUrl }}/media/?size=l">
-                        <img src="{{ bake.instagramUrl }}/media/?size=t" />
+                    <a class="photo" href="{{ bake.instagramUrl }}" target="_blank">
+                        <img src="{{ bake.instagramUrl }}/media/?size=t" alt="{{ bake.name }} on Instagram" />
                     </a>
+                {% endif %}
+                {% if bake.twitterImageUrl %}
+                    {% if bake.twitterTweetUrl %}<a class="photo" href="{{ bake.twitterTweetUrl }}" target="_blank">{% endif %}
+                        <img src="{{ bake.twitterImageUrl }}" alt="{{ bake.name }} on Twitter" />
+                    {% if bake.twitterTweetUrl %}</a>{% endif %}
                 {% endif %}
                 <div class="description">{{ bake.description }}</div>
             </div>
