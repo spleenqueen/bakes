@@ -1,5 +1,8 @@
 (function($) {
 
+  // Remove no js.
+  $('html').removeClass('no-js');
+
   $(document).ready(function() {
 
     /**

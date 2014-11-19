@@ -2,7 +2,12 @@
 $spacing-unit-vertical    : 20px;
 $spacing-unit-horizontal  : 1.5em;
 
-// Max container width
+// Breakpoints.
+$mouse: 400px;
+$gerbil: (400px + 650px) / 2;
+$degu: 650px;
+
+// Max container width.
 $max-container-width: 60em;
 
 // Define base font size and line height.
@@ -13,7 +18,6 @@ $base-line-height:  1.4em;
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:900);
 @import url(http://fonts.googleapis.com/css?family=Pacifico);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
-
 $base-font-family:  'Open Sans', sans-serif;
 
 // Define the base font color, to be used as the default throughout the site.
