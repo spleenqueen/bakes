@@ -1,22 +1,38 @@
+- date: 2014-11-23 21:44:00 +0000
+  name: "Plaited bread centerpiece"
+  description: "This was a practice loaf to be used as a centrepiece. The idea is to put a bowl full of delicious dip or a baked camembert in the centre. It came out ok for the first time I've made bread in years. The plait could have been neater, but that's something to improve for next time."
+  rating: 3.5
+  instagramUrl: http://instagram.com/p/vwgYV9hFfj
+  tags:
+  - Bread
+
 - date: 2014-11-16 16:30:00 +0000
   name: "Cranberry, white chocolate and oat cookies"
   description: "It's almost that time of year again, so I thought I'd make some vaguely seasonal cookies (the cranberries are what make them Christmas-y). I made a double batch of approx. 55 and they all came out pretty much perfect."
   rating: 5
   instagramUrl: http://instagram.com/p/vd00lChFeB
+  tags:
+  - Biscuits & cookies
 
 - date: 2014-09-26 16:30:00 +0000
   name: "Blueberry and lemon mini muffins"
   description: "I made these for a co-worker's Birthday. They were a litte dry considering they had yoghurt in them (which usually makes for a moister bake). Next time I'd try them full size as I think them being so small and me cooking them for slightly too long was what let them down."
   rating: 2.5
   recipeUrl: http://www.blessthismessplease.com/2012/04/blueberry-lemon-muffins.html
-  instagramUrl: http://instagram.com/p/tZZuBfhFRe
+  instagramUrl: http://instagram.com/p/tZZuBfhFRe  
+  tags:
+  - Cupcakes & muffins
+  - Hummingbird Bakery
 
 - date: 2014-09-22 16:30:00 +0000
   name: "Linzer biscuits"
   description: "These were made to celebrate 5 years together with the fella. I took them in to work a little disappointed that they hadn't come out that well - I was shocked by how much everyone loved them. I'd definitely give these another whirl."
   rating: 4
   recipeUrl: http://www.cookingclassy.com/2014/01/linzer-cookies
-  instagramUrl: http://instagram.com/p/tPghhXhFVu
+  instagramUrl: http://instagram.com/p/tPghhXhFVu  
+  tags:
+  - Biscuits & cookies
+  - Special occasion
 
 - date: 2014-09-04 16:30:00 +0000
   name: "Marshmellow cupcakes"
@@ -24,12 +40,18 @@
   rating: 4
   recipeUrl: https://hummingbirdbakery.com/cookbooks/the-hummingbird-bakery-cookbook
   instagramUrl: http://instagram.com/p/sifbYyBFTz
+  tags:
+  - Cupcakes & muffins
+  - Hummingbird Bakery
 
 - date: 2014-08-26 16:30:00 +0000
   name: "Ombre Wedding cake, v2.0"
   description: "My sister is getting married in June 2015 and wanted a 'cutting cake' (she's buying in cupcakes, but wanted something to cut). She doesn't like traditional wedding cakes so I'm making her an ombre vanilla/toffee/chocolate cake with ganache filling white chocolate decorations. This is version 2.0 and it went very well - my sister got to try it and she absolutely loved it, so I was chuffed to bits. Now I just have to keep practising it to get it spot on!"
   rating: 4
-  instagramUrl: http://instagram.com/p/sK1FSgBFXQ
+  instagramUrl: http://instagram.com/p/sK1FSgBFXQ  
+  tags:
+  - Cake
+  - Special occasion
 
 - date: 2014-01-14 10:01:00 +0000
   name: "Drupal cupcakes"
@@ -38,6 +60,10 @@
   recipeUrl: https://hummingbirdbakery.com/cookbooks/the-hummingbird-bakery-cookbook
   twitterImageUrl: https://pbs.twimg.com/media/Bd-OLrJIIAAcmXE.jpg:thumb
   twitterTweetUrl: https://twitter.com/spleenqueen/status/423213221450088448
+  tags:
+  - Cupcakes & muffins
+  - Hummingbird Bakery
+  - Special occasion
 
 - date: 2013-01-13 20:16:00 +0000
   name: "Marshmellow cupcakes"
@@ -46,3 +72,6 @@
   recipeUrl: https://hummingbirdbakery.com/cookbooks/the-hummingbird-bakery-cookbook
   twitterImageUrl: https://pbs.twimg.com/media/BEdWJj_CIAIE6q1.jpg:thumb
   twitterTweetUrl: https://twitter.com/spleenqueen/status/308309821772406784
+  tags:
+  - Cupcakes & muffins
+  - Hummingbird Bakery
